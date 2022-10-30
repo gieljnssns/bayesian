@@ -6,8 +6,6 @@
 [![Project Maintenance][maintenance-shield]][user_profile]
 [![BuyMeCoffee][buymecoffeebadge]][buymecoffee]
 
-[![Discord][discord-shield]][discord]
-[![Community Forum][forum-shield]][forum]
 
 _Component to integrate with [integration_blueprint][integration_blueprint]._
 
@@ -16,8 +14,6 @@ _Component to integrate with [integration_blueprint][integration_blueprint]._
 Platform | Description
 -- | --
 `binary_sensor` | Show something `True` or `False`.
-`sensor` | Show info from API.
-`switch` | Switch something `True` or `False`.
 
 ![example][exampleimg]
 
@@ -25,12 +21,12 @@ Platform | Description
 ## Installation
 
 1. Click install.
-1. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Blueprint".
+1. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Bayesian".
 
 {% endif %}
 
 
-## Configuration is done in the UI
+## Configuration is done in configuration.yaml
 
 <!---->
 
@@ -53,4 +49,4 @@ Platform | Description
 [maintenance-shield]: https://img.shields.io/badge/maintainer-Joakim%20Sørensen%20%40ludeeus-blue.svg?style=for-the-badge
 [releases-shield]: https://img.shields.io/github/release/custom-components/integration_blueprint.svg?style=for-the-badge
 [releases]: https://github.com/custom-components/integration_blueprint/releases
-[user_profile]: https://github.com/ludeeus
+[user_profile]: https://github.com/gieljnssns
